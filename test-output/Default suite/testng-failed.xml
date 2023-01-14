@@ -7,7 +7,7 @@
         <methods>
           <include name="beforeClass"/>
           <include name="afterClass"/>
-          <include name="TC_01_Amazon"/>
+          <include name="TC_01_Amazon" invocation-numbers="0 2"/>
         </methods>
       </class> <!-- excercise01.Excercise01 -->
     </classes>
