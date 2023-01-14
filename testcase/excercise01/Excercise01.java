@@ -35,6 +35,7 @@ public class Excercise01 extends BaseTest {
 		homePage = PageGenerator.getHomePage(driver);
 		homePage.selectItemInDropDownList("Books");
 		homePage.sendKeysToSearchTextBox(searchKey);
+		System.out.println("Book>> " + searchKey);
 		homePage.clickToSearchButton();
 
 		searchPage = PageGenerator.getSearchPage(driver);
